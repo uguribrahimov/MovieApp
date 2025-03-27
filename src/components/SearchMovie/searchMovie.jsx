@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { getMovieListBySearch } from '../../redux/slices/movieListSlice';
-import './SearchMovie.css';
+import './searchMovie.css';
 import { useNavigate } from 'react-router-dom';
 import { API_KEY, API_MOVIE_DETAIL } from '../../constants/api';
 
